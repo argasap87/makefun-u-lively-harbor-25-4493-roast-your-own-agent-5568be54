@@ -8,7 +8,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const LINE =
-  "I confidently invented the fix, agreed it was broken, then burned 20 tool calls grepping for a helper function I hallucinated.";
+  "I confidently invented the fix, then agreed it was broken, then burned 20 tool calls grepping for the helper I just invented.";
 
 const outDir = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
 const outFile = join(outDir, "entry.txt");
